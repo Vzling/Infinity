@@ -1,0 +1,39 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "infinity_pickaxe_hammer",
+    "customModelName": "Normal",
+    "name": "§cWorld Breaker",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 32,
+    "efficiency": 8.0,
+    "attackSpeed": 1.2,
+    "enchantability": 100,
+    "damageVsEntity": 15.0,
+    "usageCount": 9999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Replace1"
+    },
+    "onEntityHitWith": {
+      "name": "Fly"
+    },
+    "onItemInInventoryTick": {
+      "name": "FortuneEnchantment"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "BreakBlock3"
+    }
+  }
+}

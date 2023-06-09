@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "skullfire_sword",
+    "customModelName": "Normal",
+    "name": "Skullfire Sword",
+    "specialInfo": [
+      "aa"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Avaritiat"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 13.0,
+    "attackSpeed": 1.6,
+    "enchantability": 23,
+    "damageVsEntity": 5.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

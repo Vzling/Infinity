@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "1": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "2": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "3": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "4": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "5": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "6": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "7": {
+      "item": "avaritia:neutronium_nugget"
+    },
+    "8": {
+      "item": "avaritia:neutronium_nugget"
+    }
+  },
+  "result": {
+    "item": "avaritia:neutronium_ingot",
+    "count": 1
+  }
+}

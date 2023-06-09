@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "infinity_hoe",
+    "customModelName": "Normal",
+    "name": "§cHoe of the Green Earth",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Avaritiat"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 100,
+    "efficiency": 100.0,
+    "attackSpeed": 4.0,
+    "enchantability": 100,
+    "damageVsEntity": 29.0,
+    "usageCount": 9999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "Replace2"
+    }
+  }
+}

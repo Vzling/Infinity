@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer1": "avaritia:items/infinity_ingot",
+    "layer0": "avaritia:items/halob"
+  }
+}

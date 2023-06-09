@@ -1,0 +1,40 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "idle",
+    "customModelName": "Normal",
+    "name": "§cLongbow of the Heavens",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Avaritiat"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 9999,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 10000.0,
+    "bulletKnockback": 3,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:InfinityCatalyst"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "DropBow"
+    }
+  }
+}

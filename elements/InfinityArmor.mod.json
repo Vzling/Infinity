@@ -1,0 +1,78 @@
+{
+  "_fv": 39,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "infinity_helmet",
+    "enableBody": true,
+    "textureBody": "infinity_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "infinity_legs",
+    "enableBoots": true,
+    "textureBoots": "infinity_boots",
+    "onHelmetTick": {
+      "name": "Effect1"
+    },
+    "onBodyTick": {
+      "name": "Effect2"
+    },
+    "onLeggingsTick": {
+      "name": "Effect3"
+    },
+    "onBootsTick": {
+      "name": "Effect4"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Avaritiat"
+    },
+    "armorTextureFile": "infinity_",
+    "helmetName": "§cInfinity Helmet",
+    "bodyName": "§cIInfinity Breastplate",
+    "leggingsName": "§cInfinity Leggings",
+    "bootsName": "§cInfinity Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 1000,
+    "damageValueHelmet": 6,
+    "damageValueBody": 16,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 2,
+    "enchantability": 100,
+    "toughness": 10.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": []
+  }
+}

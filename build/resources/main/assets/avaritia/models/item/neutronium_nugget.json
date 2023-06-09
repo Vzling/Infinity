@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer1": "avaritia:items/neutron_nugget",
+    "layer0": "avaritia:items/halo_noise"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer1": "avaritia:items/neutronium_ingot",
+    "layer0": "avaritia:items/halo_noisebig"
+  }
+}

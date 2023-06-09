@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "infinity_axereset",
+    "customModelName": "Normal",
+    "name": "§cNature's Ruin",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 100,
+    "efficiency": 100.0,
+    "attackSpeed": 1.0,
+    "enchantability": 100,
+    "damageVsEntity": 29.0,
+    "usageCount": 9999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Replace1"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BreakBlock2"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "BreakBlock"
+    }
+  }
+}

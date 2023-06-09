@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "1": {
+      "item": "minecraft:nether_star"
+    },
+    "2": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "3": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "avaritia:diamond_lattice"
+    }
+  },
+  "result": {
+    "item": "avaritia:crystal_matrix_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Break Bedrock",
+    "description": "Enables the World Breaker to break bedrock",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

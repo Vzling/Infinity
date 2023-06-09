@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "infinity_pickaxe",
+    "customModelName": "Normal",
+    "name": "§cWorld Breaker",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Avaritiat"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 32,
+    "efficiency": 100.0,
+    "attackSpeed": 1.2,
+    "enchantability": 100,
+    "damageVsEntity": 15.0,
+    "usageCount": 9999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Replace1"
+    },
+    "onItemInInventoryTick": {
+      "name": "FortuneEnchantment"
+    }
+  }
+}

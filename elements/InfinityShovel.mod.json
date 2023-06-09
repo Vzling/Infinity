@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "infinity_shovel",
+    "customModelName": "Normal",
+    "name": "§cPlanet Eater",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Avaritiat"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 100,
+    "efficiency": 100.0,
+    "attackSpeed": 1.0,
+    "enchantability": 100,
+    "damageVsEntity": 16.0,
+    "usageCount": 9999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Replace1"
+    },
+    "onRightClickedOnBlock": {
+      "name": "Replace3"
+    }
+  }
+}

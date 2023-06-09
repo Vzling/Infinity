@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "1": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "2": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "3": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "4": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "5": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "6": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "7": {
+      "item": "avaritia:neutrons_pile"
+    },
+    "8": {
+      "item": "avaritia:neutrons_pile"
+    }
+  },
+  "result": {
+    "item": "avaritia:neutronium_nugget",
+    "count": 1
+  }
+}

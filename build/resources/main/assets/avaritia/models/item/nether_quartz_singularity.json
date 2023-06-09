@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer2": "avaritia:items/nq_singularity_layer_1",
+    "layer1": "avaritia:items/halob",
+    "layer0": "avaritia:items/nq_singularity_layer_0"
+  }
+}
