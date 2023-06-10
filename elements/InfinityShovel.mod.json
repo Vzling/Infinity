@@ -25,9 +25,6 @@
     "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "Replace1"
-    },
-    "onRightClickedOnBlock": {
-      "name": "Replace3"
     }
   }
 }

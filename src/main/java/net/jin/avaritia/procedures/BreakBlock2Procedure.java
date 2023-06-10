@@ -1,11 +1,12 @@
 package net.jin.avaritia.procedures;
 
+import net.minecraftforge.items.ItemHandlerHelper;
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.gui.screens.Screen;
@@ -41,10 +42,10 @@ public class BreakBlock2Procedure {
 							if (_fbs.getBlock() == Blocks.OAK_LOG || _fbs.getBlock() == Blocks.SPRUCE_LOG || _fbs.getBlock() == Blocks.BIRCH_LOG || _fbs.getBlock() == Blocks.JUNGLE_LOG || _fbs.getBlock() == Blocks.ACACIA_LOG
 									|| _fbs.getBlock() == Blocks.DARK_OAK_LOG) {
 								world.setBlock(new BlockPos(_bx, _by, _bz), Blocks.AIR.defaultBlockState(), 3);
-								if (world instanceof Level _level && !_level.isClientSide()) {
-									ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), (new ItemStack(_fbs.getBlock())));
-									entityToSpawn.setPickUpDelay(1);
-									_level.addFreshEntity(entityToSpawn);
+								if (entity instanceof Player _player) {
+									ItemStack _setstack = (new ItemStack(_fbs.getBlock()));
+									_setstack.setCount(1);
+									ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 								}
 							}
 							_break = false;

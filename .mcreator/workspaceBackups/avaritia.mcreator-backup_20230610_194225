@@ -922,41 +922,6 @@
       }
     },
     {
-      "name": "Replace3",
-      "type": "procedure",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "replace_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/jin/avaritia/procedures/Replace3Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "InfinityShovelDestroyer",
       "type": "tool",
       "sortid": 55,
@@ -1108,6 +1073,25 @@
       "metadata": {
         "files": [
           "src/main/java/net/jin/avaritia/procedures/NoDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoHurt",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jin/avaritia/procedures/NoHurtProcedure.java"
         ],
         "dependencies": [
           {
