@@ -36,7 +36,7 @@ public class Replace2Procedure {
 							if (_fbs.getBlock() == Blocks.GRASS_BLOCK || _fbs.getBlock() == Blocks.DIRT) {
 								world.setBlock(new BlockPos(_bx, _by, _bz), Blocks.FARMLAND.defaultBlockState(), 3);
 							}
-							_break = (false);
+							_break = false;
 							if (_bdz) {
 								_dz++;
 							} else {

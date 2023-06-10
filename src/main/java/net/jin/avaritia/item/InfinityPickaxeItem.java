@@ -40,7 +40,7 @@ public class InfinityPickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 1, -2.8f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
 	}

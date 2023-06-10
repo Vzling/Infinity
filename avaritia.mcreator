@@ -1116,6 +1116,25 @@
           }
         ]
       }
+    },
+    {
+      "name": "NoHurt",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jin/avaritia/procedures/NoHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1123,14 +1142,14 @@
   "language_map": {
     "en_us": {
       "item.avaritia.infinity_pickaxe": "§cWorld Breaker",
-      "item.avaritia.silver_singularity": "Silver Singularity",
       "item.avaritia.fluxed_singularity": "Fluxed Singularity",
+      "item.avaritia.silver_singularity": "Silver Singularity",
       "item.avaritia.lead_singularity": "Lead Singularity",
       "item.avaritia.platinum_singularity": "Platinum Singularity",
-      "item.avaritia.copper_singularity": "Copper Singularity",
       "item.avaritia.iridium_singularity": "Iridium Singularity",
-      "item.avaritia.infinity_hoe": "§cHoe of the Green Earth",
+      "item.avaritia.copper_singularity": "Copper Singularity",
       "item.avaritia.skullfire_sword": "Skullfire Sword",
+      "item.avaritia.infinity_hoe": "§cHoe of the Green Earth",
       "item.avaritia.infinity_armor_chestplate": "§cIInfinity Breastplate",
       "item.avaritia.crystal_matrix_ingot": "Crystal Matrix Ingot",
       "item.avaritia.infinity_bow": "§cLongbow of the Heavens",
@@ -1175,14 +1194,14 @@
     },
     "zh_cn": {
       "item.avaritia.infinity_pickaxe": "§c世界崩解之镐",
-      "item.avaritia.silver_singularity": "奇点-银",
       "item.avaritia.fluxed_singularity": "奇点-充能琥珀金",
+      "item.avaritia.silver_singularity": "奇点-银",
       "item.avaritia.lead_singularity": "奇点-铅",
       "item.avaritia.platinum_singularity": "奇点-铂",
-      "item.avaritia.iridium_singularity": "奇点-铱",
       "item.avaritia.copper_singularity": "奇点-铜",
-      "item.avaritia.skullfire_sword": "炽焰之啄颅剑",
+      "item.avaritia.iridium_singularity": "奇点-铱",
       "item.avaritia.infinity_hoe": "§c地蕴复生之锄",
+      "item.avaritia.skullfire_sword": "炽焰之啄颅剑",
       "item.avaritia.infinity_armor_chestplate": "§c无尽胸甲",
       "item.avaritia.crystal_matrix_ingot": "水晶矩阵锭",
       "item.avaritia.infinity_bow": "§c天堂陨落长弓",
@@ -1250,5 +1269,5 @@
     "modElementsPackage": "net.jin.avaritia",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300110610
+  "mcreatorVersion": 202300223515
 }

@@ -44,7 +44,7 @@ public class InfinitySwordHammerItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 1, -2.8f, new Item.Properties().tab(null).fireResistant());
 	}

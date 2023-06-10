@@ -41,7 +41,7 @@ public class InfinityShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 1, -3f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
 	}

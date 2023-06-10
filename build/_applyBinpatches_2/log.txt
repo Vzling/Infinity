@@ -1,4 +1,4 @@
-Java Launcher: C:\Users\yangj\Desktop\MCreator20231\jdk\bin\java.exe
+Java Launcher: C:\Users\yangj\Desktop\MCreator20232\jdk\bin\java.exe
 Arguments: '--clean, C:\Users\yangj\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-binpatched.jar, --apply, C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-binpatches.lzma'
 Classpath:
  - C:\Users\yangj\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar

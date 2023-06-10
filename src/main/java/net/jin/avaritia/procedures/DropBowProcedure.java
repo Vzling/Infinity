@@ -23,7 +23,7 @@ public class DropBowProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		for (int index0 = 0; index0 < (int) (9); index0++) {
+		for (int index0 = 0; index0 < 9; index0++) {
 			if (world instanceof ServerLevel projectileLevel) {
 				Projectile _entityToSpawn = new Object() {
 					public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
@@ -42,7 +42,7 @@ public class DropBowProcedure {
 			}
 		}
 		AvaritiaMod.queueServerWork(5, () -> {
-			for (int index1 = 0; index1 < (int) (9); index1++) {
+			for (int index1 = 0; index1 < 9; index1++) {
 				if (world instanceof ServerLevel projectileLevel) {
 					Projectile _entityToSpawn = new Object() {
 						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
@@ -62,7 +62,7 @@ public class DropBowProcedure {
 			}
 		});
 		AvaritiaMod.queueServerWork(10, () -> {
-			for (int index2 = 0; index2 < (int) (9); index2++) {
+			for (int index2 = 0; index2 < 9; index2++) {
 				if (world instanceof ServerLevel projectileLevel) {
 					Projectile _entityToSpawn = new Object() {
 						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
@@ -82,7 +82,7 @@ public class DropBowProcedure {
 			}
 		});
 		AvaritiaMod.queueServerWork(15, () -> {
-			for (int index3 = 0; index3 < (int) (9); index3++) {
+			for (int index3 = 0; index3 < 9; index3++) {
 				if (world instanceof ServerLevel projectileLevel) {
 					Projectile _entityToSpawn = new Object() {
 						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {

@@ -10,9 +10,7 @@ credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="IAD Studio, Jin1358, MCreator"
-description='''
-Avaritia mod high version reset version
-'''
+description="Avaritia mod high version reset version"
 
 [[dependencies.avaritia]]
     modId="minecraft"

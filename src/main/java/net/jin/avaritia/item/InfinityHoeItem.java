@@ -35,7 +35,7 @@ public class InfinityHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 0, 0f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
 	}

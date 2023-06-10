@@ -8,7 +8,7 @@ public class Effect2Procedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player) {
-			_player.getAbilities().mayfly = (true);
+			_player.getAbilities().mayfly = true;
 			_player.onUpdateAbilities();
 		}
 	}

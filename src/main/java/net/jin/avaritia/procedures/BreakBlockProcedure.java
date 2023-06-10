@@ -44,7 +44,7 @@ public class BreakBlockProcedure {
 									_level.addFreshEntity(entityToSpawn);
 								}
 							}
-							_break = (false);
+							_break = false;
 							if (_bdz) {
 								_dz++;
 							} else {

@@ -1,4 +1,4 @@
-Java Launcher: C:\Users\yangj\Desktop\MCreator20231\jdk\bin\java.exe
+Java Launcher: C:\Users\yangj\Desktop\MCreator20232\jdk\bin\java.exe
 Arguments: '--in-jar, C:\Users\yangj\MCreatorWorkspaces\avaritia\build\libs\modid-1.0.jar, --out-jar, C:\Users\yangj\MCreatorWorkspaces\avaritia\build\reobfJar\output.jar, --srg-in, C:\Users\yangj\MCreatorWorkspaces\avaritia\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\yangj\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar

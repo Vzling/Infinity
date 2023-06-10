@@ -44,7 +44,7 @@ public class NaturesRuinResetItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 1, -3f, new Item.Properties().tab(null).fireResistant());
 	}
