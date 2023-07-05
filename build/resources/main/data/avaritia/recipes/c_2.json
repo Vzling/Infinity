@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:crystal_matrix_block"
+    }
+  },
+  "result": {
+    "item": "avaritia:crystal_matrix_ingot",
+    "count": 9
+  }
+}

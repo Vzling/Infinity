@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avaritia:block/extreme_crafting_table_side",
+    "up": "avaritia:block/extreme_crafting_table_top",
+    "north": "avaritia:block/extreme_crafting_table_side",
+    "east": "avaritia:block/extreme_crafting_table_side",
+    "south": "avaritia:block/extreme_crafting_table_side",
+    "west": "avaritia:block/extreme_crafting_table_side",
+    "particle": "avaritia:block/extreme_crafting_table_side"
+  },
+  "render_type": "solid"
+}

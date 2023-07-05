@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "1": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "2": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "3": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "4": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "5": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "6": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "7": {
+      "item": "avaritia:compressed_crafting_table"
+    },
+    "8": {
+      "item": "avaritia:compressed_crafting_table"
+    }
+  },
+  "result": {
+    "item": "avaritia:double_compressed_crafting_table",
+    "count": 1
+  }
+}

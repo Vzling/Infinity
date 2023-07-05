@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "avaritia:items/idle"
+    "layer0": "avaritia:item/idle"
   },
   "display": {
     "thirdperson_righthand": {

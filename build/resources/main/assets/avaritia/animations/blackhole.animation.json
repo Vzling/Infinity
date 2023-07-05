@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.big": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 11,
+			"bones": {
+				"hole": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"9.0": {
+							"vector": [68, 67.525, 66.4],
+							"easing": "easeOutQuad"
+						},
+						"10.0833": {
+							"vector": [68, 67.525, 66.4],
+							"easing": "easeOutQuad"
+						},
+						"10.5833": {
+							"vector": [0, -0.1, 0],
+							"easing": "easeInCirc"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

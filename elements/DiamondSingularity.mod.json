@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "diamond_singularity_layer_1",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Diamond Singularity",
     "rarity": "UNCOMMON",
     "creativeTab": {

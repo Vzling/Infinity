@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:neutronium_block"
+    }
+  },
+  "result": {
+    "item": "avaritia:neutronium_ingot",
+    "count": 9
+  }
+}

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class InfinityIngotItem extends Item {
 	public InfinityIngotItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

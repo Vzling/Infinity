@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:infinity_block"
+    }
+  },
+  "result": {
+    "item": "avaritia:infinity_ingot",
+    "count": 9
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "avaritia:items/infinity_legs"
+    "layer0": "avaritia:item/infinity_legs"
   }
 }

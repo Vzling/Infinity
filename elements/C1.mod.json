@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrystalMatrixBlock"
+    },
+    "name": "c_1",
+    "namespace": "mod"
+  }
+}

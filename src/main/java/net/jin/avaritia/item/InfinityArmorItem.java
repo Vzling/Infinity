@@ -19,19 +19,18 @@ import net.jin.avaritia.procedures.Effect4Procedure;
 import net.jin.avaritia.procedures.Effect3Procedure;
 import net.jin.avaritia.procedures.Effect2Procedure;
 import net.jin.avaritia.procedures.Effect1Procedure;
-import net.jin.avaritia.init.AvaritiaModTabs;
 
 public abstract class InfinityArmorItem extends ArmorItem {
-	public InfinityArmorItem(EquipmentSlot slot, Item.Properties properties) {
+	public InfinityArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 9999;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 1000;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 12, 16, 6}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{2, 12, 16, 6}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -46,7 +45,7 @@ public abstract class InfinityArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 
 			@Override
@@ -61,14 +60,14 @@ public abstract class InfinityArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 1f;
+				return 9999f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends InfinityArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+			super(ArmorItem.Type.HELMET, new Item.Properties().fireResistant());
 		}
 
 		@Override
@@ -84,7 +83,7 @@ public abstract class InfinityArmorItem extends ArmorItem {
 
 	public static class Chestplate extends InfinityArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant());
 		}
 
 		@Override
@@ -100,7 +99,7 @@ public abstract class InfinityArmorItem extends ArmorItem {
 
 	public static class Leggings extends InfinityArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant());
 		}
 
 		@Override
@@ -116,7 +115,7 @@ public abstract class InfinityArmorItem extends ArmorItem {
 
 	public static class Boots extends InfinityArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+			super(ArmorItem.Type.BOOTS, new Item.Properties().fireResistant());
 		}
 
 		@Override

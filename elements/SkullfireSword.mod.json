@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Skullfire Sword",
     "specialInfo": [
-      "aa"
+      "tooltip.7"
     ],
     "creativeTab": {
       "value": "CUSTOM:Avaritiat"

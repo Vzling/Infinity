@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "crystal_matrix_ingot",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Crystal Matrix Ingot",
     "rarity": "RARE",
     "creativeTab": {
@@ -25,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "aa"
+      "tooltip.0"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

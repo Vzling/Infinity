@@ -13,6 +13,8 @@
  */
 package net.jin.avaritia;
 
+import software.bernie.geckolib.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -29,9 +31,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.jin.avaritia.init.AvaritiaModTabs;
+import net.jin.avaritia.init.AvaritiaModMenus;
 import net.jin.avaritia.init.AvaritiaModItems;
 import net.jin.avaritia.init.AvaritiaModEntities;
+import net.jin.avaritia.init.AvaritiaModBlocks;
+import net.jin.avaritia.init.AvaritiaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,12 +53,16 @@ public class AvaritiaMod {
 
 	public AvaritiaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-		AvaritiaModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		AvaritiaModBlocks.REGISTRY.register(bus);
 		AvaritiaModItems.REGISTRY.register(bus);
 		AvaritiaModEntities.REGISTRY.register(bus);
+		AvaritiaModBlockEntities.REGISTRY.register(bus);
 
+		AvaritiaModMenus.REGISTRY.register(bus);
+
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

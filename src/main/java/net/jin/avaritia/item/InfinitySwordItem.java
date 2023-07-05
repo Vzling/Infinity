@@ -37,7 +37,7 @@ public class InfinitySwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+		}, 3, -2f, new Item.Properties().fireResistant());
 	}
 
 	@Override

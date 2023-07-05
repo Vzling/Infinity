@@ -13,12 +13,11 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
-import net.jin.avaritia.init.AvaritiaModTabs;
 import net.jin.avaritia.entity.InfinityBowEntity;
 
 public class InfinityBowItem extends Item {
 	public InfinityBowItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).durability(9999));
+		super(new Item.Properties().durability(9999));
 	}
 
 	@Override

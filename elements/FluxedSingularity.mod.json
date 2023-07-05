@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "fluxed_singularity_layer_1",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Fluxed Singularity",
     "rarity": "UNCOMMON",
     "creativeTab": {

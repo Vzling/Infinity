@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "iron_singularity_layer_1",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Iron Singularity",
     "rarity": "UNCOMMON",
     "creativeTab": {

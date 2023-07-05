@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer1": "avaritia:items/infinity_catalyst",
-    "layer0": "avaritia:items/halob"
+    "layer1": "avaritia:item/infinity_catalyst",
+    "layer0": "avaritia:item/halob"
   }
 }

@@ -1,4 +1,5 @@
-package net.jin.avaritia.item;
+
+package net.jin.avaritia.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -9,9 +10,6 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.Rarity;
-
-import net.jin.avaritia.init.AvaritiaModTabs;
 
 import java.util.List;
 
@@ -41,7 +39,7 @@ public class SkullfireSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.DIAMOND));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).rarity(Rarity.EPIC));
+		}, 3, -2.4f, new Item.Properties());
 	}
 
 	@Override

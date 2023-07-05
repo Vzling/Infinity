@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "infinity_ingot",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Infinity Ingot",
     "rarity": "COMMON",
     "creativeTab": {

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "avaritia:items/infinity_axereset"
+    "layer0": "avaritia:item/infinity_axereset"
   }
 }

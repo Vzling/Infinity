@@ -7,7 +7,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.gui.screens.Screen;
 
 public class Replace2Procedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate) {
+	public static void execute(LevelAccessor world, int x, int y, int z, BlockState blockstate) {
 		if (Screen.hasShiftDown()) {
 			if (blockstate.getBlock() == Blocks.GRASS_BLOCK || blockstate.getBlock() == Blocks.DIRT) {
 				world.setBlock(new BlockPos(x, y, z), Blocks.FARMLAND.defaultBlockState(), 3);

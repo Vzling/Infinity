@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avaritia:block/compressed_crafting_table",
+    "up": "avaritia:block/compressed_crafting_table",
+    "north": "avaritia:block/compressed_crafting_table",
+    "east": "avaritia:block/compressed_crafting_table",
+    "south": "avaritia:block/compressed_crafting_table",
+    "west": "avaritia:block/compressed_crafting_table",
+    "particle": "avaritia:block/compressed_crafting_table"
+  },
+  "render_type": "solid"
+}

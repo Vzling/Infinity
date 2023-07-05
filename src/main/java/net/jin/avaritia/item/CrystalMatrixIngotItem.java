@@ -8,13 +8,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.jin.avaritia.init.AvaritiaModTabs;
-
 import java.util.List;
 
 public class CrystalMatrixIngotItem extends Item {
 	public CrystalMatrixIngotItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE));
 	}
 
 	@Override

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer1": "avaritia:items/neutron_pile",
-    "layer0": "avaritia:items/halo_noise"
+    "layer1": "avaritia:item/neutron_pile",
+    "layer0": "avaritia:item/halo_noise"
   }
 }

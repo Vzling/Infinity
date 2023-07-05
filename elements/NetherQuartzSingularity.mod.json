@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "nq_singularity_layer_1",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Nether Quartz Singularity",
     "rarity": "UNCOMMON",
     "creativeTab": {

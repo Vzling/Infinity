@@ -8,6 +8,6 @@ import net.jin.avaritia.init.AvaritiaModTabs;
 
 public class NickelSingularityItem extends Item {
 	public NickelSingularityItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 }

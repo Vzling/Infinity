@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avaritia:block/crystal_matrix_block",
+    "up": "avaritia:block/crystal_matrix_block",
+    "north": "avaritia:block/crystal_matrix_block",
+    "east": "avaritia:block/crystal_matrix_block",
+    "south": "avaritia:block/crystal_matrix_block",
+    "west": "avaritia:block/crystal_matrix_block",
+    "particle": "avaritia:block/crystal_matrix_block"
+  },
+  "render_type": "solid"
+}

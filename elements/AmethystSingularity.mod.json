@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "amethyst_singularity_layer_1",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Amethyst Singularity",
     "rarity": "UNCOMMON",
     "creativeTab": {

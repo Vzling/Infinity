@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "neutron_pile",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Pile of Neutrons",
     "rarity": "UNCOMMON",
     "creativeTab": {

@@ -1,24 +1,30 @@
 modLoader="javafml"
-loaderVersion="[43,)"
+loaderVersion="[45,)"
 license="MIT License"
 
 [[mods]]
 modId="avaritia"
-version="0.5.2"
+version="0.9.0"
 displayName="Avaritia Reset Version"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-authors="IAD Studio, Jin1358, MCreator"
+authors="Jin1358, IAD Studio, MCreator"
 description="Avaritia mod high version reset version"
 
 [[dependencies.avaritia]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 
 
 
+[[dependencies.avaritia]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

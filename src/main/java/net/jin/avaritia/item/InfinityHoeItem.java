@@ -9,7 +9,6 @@ import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.InteractionResult;
 
 import net.jin.avaritia.procedures.Replace2Procedure;
-import net.jin.avaritia.init.AvaritiaModTabs;
 
 public class InfinityHoeItem extends HoeItem {
 	public InfinityHoeItem() {
@@ -37,7 +36,7 @@ public class InfinityHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 0, 0f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+		}, 0, 0f, new Item.Properties().fireResistant());
 	}
 
 	@Override

@@ -8,13 +8,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.jin.avaritia.init.AvaritiaModTabs;
-
 import java.util.List;
 
 public class RecordFragmentItem extends Item {
 	public RecordFragmentItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

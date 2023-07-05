@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "diamond_lattice",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Diamond Lattice",
     "rarity": "UNCOMMON",
     "creativeTab": {

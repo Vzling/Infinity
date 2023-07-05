@@ -19,7 +19,6 @@ import net.minecraft.core.BlockPos;
 import net.jin.avaritia.procedures.Replace1Procedure;
 import net.jin.avaritia.procedures.BreakBlockProcedure;
 import net.jin.avaritia.procedures.BreakBlock2Procedure;
-import net.jin.avaritia.init.AvaritiaModTabs;
 
 public class NaturesRuinItem extends AxeItem {
 	public NaturesRuinItem() {
@@ -47,7 +46,7 @@ public class NaturesRuinItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+		}, 1, -3f, new Item.Properties().fireResistant());
 	}
 
 	@Override

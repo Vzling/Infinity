@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "1": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "2": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "3": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "4": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "5": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "6": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "7": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "8": {
+      "item": "avaritia:infinity_ingot"
+    }
+  },
+  "result": {
+    "item": "avaritia:infinity_block",
+    "count": 1
+  }
+}

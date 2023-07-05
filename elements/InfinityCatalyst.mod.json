@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "infinity_catalyst",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Infinity Catalyst",
     "rarity": "EPIC",
     "creativeTab": {

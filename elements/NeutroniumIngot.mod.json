@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "neutronium_ingot",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Neutronium Ingot",
     "rarity": "RARE",
     "creativeTab": {

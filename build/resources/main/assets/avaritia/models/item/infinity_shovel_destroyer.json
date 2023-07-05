@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "avaritia:items/infinity_shovel_destroyer"
+    "layer0": "avaritia:item/infinity_shovel_destroyer"
   }
 }

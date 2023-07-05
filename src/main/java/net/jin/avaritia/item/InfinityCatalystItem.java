@@ -14,7 +14,7 @@ import java.util.List;
 
 public class InfinityCatalystItem extends Item {
 	public InfinityCatalystItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

@@ -9,6 +9,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.gui.screens.Screen;
 
 import net.jin.avaritia.init.AvaritiaModGameRules;
 
@@ -77,6 +78,77 @@ public class BreakBlock3Procedure {
 				}
 				if (_break)
 					break;
+			}
+		}
+		if (Screen.hasShiftDown()) {
+			{
+				int _x = (int) ((x - 8));
+				int _y = (int) ((y - 8));
+				int _z = (int) ((z - 8));
+				int _dx = 0;
+				int _dy = 0;
+				int _dz = 0;
+				boolean _bdx = (Math.abs((int) (15)) == (int) (15));
+				boolean _bdy = (Math.abs((int) (15)) == (int) (15));
+				boolean _bdz = (Math.abs((int) (15)) == (int) (15));
+				boolean _break = false;
+				for (int _fx = 0; _fx <= (Math.abs((int) (15))); _fx++) {
+					_dy = 0;
+					int _bx = _x + _dx;
+					for (int _fy = 0; _fy <= (Math.abs((int) (15))); _fy++) {
+						_dz = 0;
+						int _by = _y + _dy;
+						for (int _fz = 0; _fz <= (Math.abs((int) (15))); _fz++) {
+							int _bz = _z + _dz;
+							BlockState _fbs = world.getBlockState(new BlockPos(_bx, _by, _bz));
+							if (world.getLevelData().getGameRules().getBoolean(AvaritiaModGameRules.BREAKBEDROCK) == false) {
+								if (!((world.getBlockState(new BlockPos(_bx, _by, _by))).getBlock() == Blocks.BEDROCK)) {
+									world.setBlock(new BlockPos(_bx, _by, _bz), Blocks.AIR.defaultBlockState(), 3);
+									if (!(_fbs.getBlock() == Blocks.STONE || _fbs.getBlock() == Blocks.GRASS_BLOCK || _fbs.getBlock() == Blocks.DIRT || _fbs.getBlock() == Blocks.GRANITE || _fbs.getBlock() == Blocks.DIORITE
+											|| _fbs.getBlock() == Blocks.ANDESITE)) {
+										if (entity instanceof Player _player) {
+											ItemStack _setstack = (new ItemStack(_fbs.getBlock()));
+											_setstack.setCount(1);
+											ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+										}
+									}
+								}
+							} else {
+								world.setBlock(new BlockPos(_bx, _by, _bz), Blocks.AIR.defaultBlockState(), 3);
+								if (!(_fbs.getBlock() == Blocks.STONE || _fbs.getBlock() == Blocks.GRASS_BLOCK || _fbs.getBlock() == Blocks.DIRT || _fbs.getBlock() == Blocks.GRANITE || _fbs.getBlock() == Blocks.DIORITE
+										|| _fbs.getBlock() == Blocks.ANDESITE)) {
+									if (entity instanceof Player _player) {
+										ItemStack _setstack = (new ItemStack(_fbs.getBlock()));
+										_setstack.setCount(1);
+										ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+									}
+								}
+							}
+							_break = false;
+							if (_bdz) {
+								_dz++;
+							} else {
+								_dz--;
+							}
+							if (_break)
+								break;
+						}
+						if (_bdy) {
+							_dy++;
+						} else {
+							_dy--;
+						}
+						if (_break)
+							break;
+					}
+					if (_bdx) {
+						_dx++;
+					} else {
+						_dx--;
+					}
+					if (_break)
+						break;
+				}
 			}
 		}
 	}

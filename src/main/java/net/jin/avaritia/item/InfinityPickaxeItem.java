@@ -14,7 +14,6 @@ import net.minecraft.world.InteractionHand;
 
 import net.jin.avaritia.procedures.Replace1Procedure;
 import net.jin.avaritia.procedures.FortuneEnchantmentProcedure;
-import net.jin.avaritia.init.AvaritiaModTabs;
 
 public class InfinityPickaxeItem extends PickaxeItem {
 	public InfinityPickaxeItem() {
@@ -42,7 +41,7 @@ public class InfinityPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -2.8f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+		}, 1, -2.8f, new Item.Properties().fireResistant());
 	}
 
 	@Override

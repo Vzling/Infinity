@@ -1,0 +1,16 @@
+JVM:         C:\Users\yangj\Desktop\MCreatorEAP2023326610\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\mergeMappings\output.jar"
+Classpath:   C:\Users\yangj\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\mergeMappings\output.jar

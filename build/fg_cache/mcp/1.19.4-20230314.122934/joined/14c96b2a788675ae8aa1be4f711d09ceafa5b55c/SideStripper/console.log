@@ -1,0 +1,9 @@
+JVM:         C:\Users\yangj\Desktop\MCreatorEAP2023326610\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\AccessTransformer\output.jar", "--output", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\output.jar", "--data", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\string_data.sas"
+Classpath:   C:\Users\yangj\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.6\mergetool-1.1.6-fatjar.jar
+Working Dir: C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\AccessTransformer\output.jar
+Output: C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\output.jar
+Data:   C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\string_data.sas

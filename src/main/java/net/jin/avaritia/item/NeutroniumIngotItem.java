@@ -14,7 +14,7 @@ import java.util.List;
 
 public class NeutroniumIngotItem extends Item {
 	public NeutroniumIngotItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE));
 	}
 
 	@Override

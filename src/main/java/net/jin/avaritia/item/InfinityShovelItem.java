@@ -12,7 +12,6 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import net.jin.avaritia.procedures.Replace1Procedure;
-import net.jin.avaritia.init.AvaritiaModTabs;
 
 public class InfinityShovelItem extends ShovelItem {
 	public InfinityShovelItem() {
@@ -40,7 +39,7 @@ public class InfinityShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).fireResistant());
+		}, 1, -3f, new Item.Properties().fireResistant());
 	}
 
 	@Override

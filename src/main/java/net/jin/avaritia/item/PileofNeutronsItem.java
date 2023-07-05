@@ -14,7 +14,7 @@ import java.util.List;
 
 public class PileofNeutronsItem extends Item {
 	public PileofNeutronsItem() {
-		super(new Item.Properties().tab(AvaritiaModTabs.TAB_AVARITIAT).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

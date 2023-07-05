@@ -1,0 +1,13 @@
+JVM:         C:\Users\yangj\Desktop\MCreatorEAP2023326610\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "bundler_extract", "--input", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\downloadServer\server.jar", "--output", "C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\extractServer\output.jar", "--jar-only"
+Classpath:   C:\Users\yangj\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.0\installertools-1.3.0-fatjar.jar
+Working Dir: C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\extractServer
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: BUNDLER_EXTRACT
+Input:   C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\downloadServer\server.jar
+Output:  C:\Users\yangj\MCreatorWorkspaces\avaritia\build\fg_cache\mcp\1.19.4-20230314.122934\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\extractServer\output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.19.4/server-1.19.4.jar

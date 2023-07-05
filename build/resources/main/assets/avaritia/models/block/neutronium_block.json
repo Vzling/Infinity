@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avaritia:block/neutronium_block",
+    "up": "avaritia:block/neutronium_block",
+    "north": "avaritia:block/neutronium_block",
+    "east": "avaritia:block/neutronium_block",
+    "south": "avaritia:block/neutronium_block",
+    "west": "avaritia:block/neutronium_block",
+    "particle": "avaritia:block/neutronium_block"
+  },
+  "render_type": "solid"
+}

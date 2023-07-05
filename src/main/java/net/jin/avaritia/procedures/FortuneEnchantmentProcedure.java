@@ -14,11 +14,11 @@ public class FortuneEnchantmentProcedure {
 			return;
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AvaritiaModItems.INFINITY_PICKAXE.get())) : false) {
 			if (!(EnchantmentHelper.getItemEnchantmentLevel(Enchantments.BLOCK_FORTUNE, itemstack) != 0)) {
-				(itemstack).enchant(Enchantments.BLOCK_FORTUNE, 10);
+				itemstack.enchant(Enchantments.BLOCK_FORTUNE, 10);
 			}
 		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AvaritiaModItems.INFINITY_SWORD_HAMMER.get())) : false) {
 			if (!(EnchantmentHelper.getItemEnchantmentLevel(Enchantments.BLOCK_FORTUNE, itemstack) != 0)) {
-				(itemstack).enchant(Enchantments.BLOCK_FORTUNE, 10);
+				itemstack.enchant(Enchantments.BLOCK_FORTUNE, 10);
 			}
 		}
 	}

@@ -1,0 +1,24 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:NeutroniumBlock"
+      },
+      {
+        "value": "CUSTOM:CrystalMatrixBlock"
+      },
+      {
+        "value": "CUSTOM:InfinityBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "dragon_immune",
+    "namespace": "minecraft"
+  }
+}
